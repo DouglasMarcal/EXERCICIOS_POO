@@ -14,7 +14,7 @@ public class Conta {
 	    public Conta(String titular) {
             this.titular = "Douglas"; //..
         }
-
+	    //. Gero os getters e setters
 	    public String getTitular() {
 			return titular;
 		}

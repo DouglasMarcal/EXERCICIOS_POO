@@ -7,11 +7,11 @@ public class TestaCodigo {
         //.. mensagem de erro
         minhaConta.saldo = 1000.0;
         minhaConta.numero = 159;
-
+        minhaConta.setSaldo(2000);
         //...............................................
         
-        minhaConta.setSaldo(2000);
-        
+
+        //..imprime na tela
         System.out.println("Nome: " + minhaConta.getTitular() +
       		  			 "\nNumero: " + minhaConta.getNumero() + 
       		  			 "\nSaldo: " + minhaConta.getSaldo()) ;
