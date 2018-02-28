@@ -1,8 +1,11 @@
 package lista_27_02_2018;
 
-public class Teste {
+public class TestaCodigo {
 	public static void main(String[] args) {
-	System.out.print("Olá");	
+        Conta minhaConta = new Conta();
+        
+        minhaConta.saldo = 1000.0;
+        minhaConta.saca(50000); // saldo é só 1000!!	
 	}
 
 }
